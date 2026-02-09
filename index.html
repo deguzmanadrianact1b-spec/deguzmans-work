@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Guzman, Adrian F. | Home</title>
+
+    <style>      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: linear-gradient(135deg, #2d24d8, #0696af);
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar .nav-links li {
+            margin-left: 10px;
+        }
+
+        .navbar .nav-links li a {
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .navbar .nav-links li a:hover {
+            color: #fffa;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background: linear-gradient(135deg, #4f46e5, #06b6d4);
+            color: white;
+            padding: 20px;
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            max-width: 900px;
+            flex-wrap: wrap;
+        }
+
+        .hero img {
+            width: 155px;
+            height: 170px;
+            border-radius: 50%;
+            border: 4px solid white;
+        }
+
+        .hero-text {
+            max-width: 500px;
+        }
+
+        .hero-text h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero-text p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            text-decoration: none;
+            background: white;
+            color: #4f46e5;
+            padding: 12px 28px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #e0e7ff;
+        }
+
+        .objectives {
+            background: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .objectives h2 {
+            color: #4f46e5;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        .objective-card {
+            background: #f2eded;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            line-height: 1.8;
+            font-size: 16px;
+            color: #333;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .objective-card p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #4f46e5, #06b6d4);
+            color: white;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero-text {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 class="logo">De Guzman, Adrian F.</h2>
+        <ul class="nav-links">
+            <li><a href="index.html">About Me |</a></li>
+            <li><a href="deguzman-work-experiences.html">Work Experiences |</a></li>
+            <li><a href="deguzman-educational-background.html">Education |</a></li>
+            <li><a href="deguzman-training&seminars.html">Trainings & Seminars |</a></li>
+            <li><a href="deguzman-skills.html">Skills |</a></li>
+            <li><a href="deguzman-projects.html">Projects |</a></li>
+            <li><a href="deguzman-contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="adrian.jpg" alt="Adrian De Guzman">
+            <div class="hero-text">
+                <h1>De Guzman, Adrian F. </h1>
+                <hr>
+            </div>
+            <p>I am an Information Technology student passionate about developing functional and user-friendly websites. I aim to grow as a skilled web developer and contribute to meaningful projects.</p>
+            <a href="#objectives" class="btn">View Objectives</a>
+        </div>
+    </section>
+
+    <section id="objectives" class="objectives">
+        <br><br>
+        <h2>Objectives</h2>
+        <div class="objective-card">
+            <p>To continuously enhance my technical skills in web development and programming by working on diverse and challenging projects, staying updated with the latest industry trends, and applying best practices in software design and implementation. I aim to develop not only my coding abilities but also my problem-solving, project management, and teamwork skills to contribute effectively to any professional environment.</p>
+            <p>I strive to collaborate with experienced professionals, learn from real-world IT experiences, and take on responsibilities that allow me to create meaningful and user-friendly digital solutions. My goal is to participate in projects that have a tangible impact, improve business processes, and provide value to users, while simultaneously growing as a competent, innovative, and adaptable IT professional.</p>
+        </div>
+        <br>
+    </section>
+
+    <footer>
+        <p>© 2026 Adrian F. De Guzman. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
